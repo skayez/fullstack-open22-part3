@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daededb2.css",
+    "main.js": "/static/js/main.af3ee731.js",
+    "index.html": "/index.html",
+    "main.daededb2.css.map": "/static/css/main.daededb2.css.map",
+    "main.af3ee731.js.map": "/static/js/main.af3ee731.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daededb2.css",
+    "static/js/main.af3ee731.js"
+  ]
+}
