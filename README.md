@@ -1,1 +1,1 @@
-https://vnaoeruj375nhqw93.herokuapp.com/api/persons
+https://vnaoeruj375nhqw93.herokuapp.com/
