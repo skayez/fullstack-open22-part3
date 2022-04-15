@@ -37,11 +37,14 @@ app.use(morgan(':method :url :status - :response-time ms :body'));
   ] */
 
 app.get('/api/persons', (req, res) => {
-  Person.find({}).then(value => {
-    res.json(value)
-  })
+  Person
+    .find({})
+    .then(value => {
+      res.json(value)
+    })
 })
 
+/*
 app.get('/api/persons/:id', (req, res) => {
   const id = Number(req.params.id)
   const person = persons.find(value => value.id === id)
@@ -88,7 +91,7 @@ app.post('/api/persons', (req, res) => {
   persons = persons.concat(person)
   res.json(person)
 })
-
+*/
 const PORT = process.env.PORT
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)

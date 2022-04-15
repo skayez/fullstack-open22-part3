@@ -18,8 +18,9 @@ const personsSchema = new mongoose.Schema({
 
 personsSchema.set('toJSON', {
   transform: (document, returnedObject) => {
+    delete returnedObject._id
     delete returnedObject.__v
   }
 })
 
-module.exports = mongoose.model('Note', noteSchema)
+module.exports = mongoose.model('Person', personsSchema)
