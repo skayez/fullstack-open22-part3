@@ -1,7 +1,6 @@
-POST https://vnaoeruj375nhqw93.herokuapp.com/api/persons
+POST http://localhost:3001/api/persons/
 Content-Type: application/json
 
 {
-    "name": "Tero Testinen",
-    "number": "12345678"
+    "name": "Maija Testinen"
 }
