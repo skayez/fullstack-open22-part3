@@ -31,7 +31,7 @@ const url = `mongodb+srv://whatever:${password}@cluster0.epmhi.mongodb.net/phone
 mongoose.connect(url)
 
 const personsSchema = new mongoose.Schema({
-  id: Number,
+  id: Object,
   name: String,
   number: String,
 })
